@@ -143,6 +143,8 @@
     <xstream.version>1.4.5</xstream.version>
     <!-- do not update necessary for lesson -->
     <zxcvbn.version>1.5.2</zxcvbn.version>
+    <sonar.organization>marioserraano</sonar.organization>
+    <sonar.moduleKey>${project.groupId}:${project.artifactId}</sonar.moduleKey>
   </properties>
 
   <dependencyManagement>
@@ -413,7 +415,7 @@
 
   <build>
     <plugins>
-      <plugin>
+      <plugin>F
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>
         <configuration>
